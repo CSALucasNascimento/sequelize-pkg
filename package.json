@@ -1,0 +1,16 @@
+{
+  "name": "sequelize-pkg",
+  "version": "1.0.0",
+  "description": "Package to be share between diferents services",
+  "main": "index.js",
+  "author": "Lucas Nascimento",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3",
+    "sequelize-easy-query": "^1.1.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
