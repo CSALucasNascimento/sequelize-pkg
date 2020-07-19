@@ -18,3 +18,4 @@ jobs:
     - run: yarn publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #a5a1f543-1586-46c8-97c7-a7414a23e1bc
