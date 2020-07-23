@@ -1,5 +1,5 @@
 {
-  "name": "@CSALucasNascimento/sequelize-pkg",
+  "name": "@csalucasnascimento/sequelize-pkg",
   "version": "1.0.0",
   "description": "Package to be share between diferents services",
   "main": "index.js",
