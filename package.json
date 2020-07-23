@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Lucas Nascimento",
   "license": "MIT",
+  "repository": {
+    "url": "git://github.com/CSALucasNascimento/sequelize-pkg.git"
+  },
   "dependencies": {
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.3",
