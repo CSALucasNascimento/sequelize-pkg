@@ -12,16 +12,15 @@
     "url": "git://github.com/CSALucasNascimento/sequelize-pkg.git"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel src --out-dir lib"
+    "build": "./node_modules/.bin/babel src --out-file lib/index.js --presets=@babel/preset-env,@babel/flow"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1"
-  }
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-flow": "^7.12.1"  }
 }
