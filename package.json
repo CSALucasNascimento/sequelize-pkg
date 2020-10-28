@@ -1,6 +1,6 @@
 {
   "name": "@csalucasnascimento/sequelize-pkg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package to be share between diferents services",
   "main": "lib/index.js",
   "files": [
