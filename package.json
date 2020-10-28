@@ -2,14 +2,26 @@
   "name": "@csalucasnascimento/sequelize-pkg",
   "version": "1.0.1",
   "description": "Package to be share between diferents services",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
   "author": "Lucas Nascimento",
   "license": "MIT",
   "repository": {
     "url": "git://github.com/CSALucasNascimento/sequelize-pkg.git"
   },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
   }
 }
