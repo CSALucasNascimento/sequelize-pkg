@@ -12,7 +12,7 @@
     "url": "git://github.com/CSALucasNascimento/sequelize-pkg.git"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel src --out-file lib/index.js --presets=@babel/preset-env,@babel/flow",
+    "build": "./node_modules/.bin/babel src --out-file lib/index.js",
     "dist": "./node_modules/.bin/webpack"
   },
   "dependencies": {
@@ -20,10 +20,9 @@
     "sequelize": "^6.3.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
-    "@babel/preset-flow": "^7.12.1",
+    "babel-loader": "^8.1.0",
     "webpack": "^5.3.0",
     "webpack-cli": "^4.1.0"
   }
