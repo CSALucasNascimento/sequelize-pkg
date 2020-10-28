@@ -24,6 +24,7 @@
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-flow": "^7.12.1",
+    "path-browserify": "^1.0.1",
     "webpack": "^5.3.0",
     "webpack-cli": "^4.1.0"
   }
